@@ -1,0 +1,31 @@
+.wr {
+    display: flex;
+    margin: 10px 0;
+}
+
+.wr p {
+    margin: 0;
+}
+
+#password {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.symbols {
+    display: flex;
+    flex-direction: row;
+}
+
+.symbol {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: greenyellow;
+}
